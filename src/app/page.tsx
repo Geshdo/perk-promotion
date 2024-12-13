@@ -1,4 +1,8 @@
 
 export default function Home() {
-  return <div className="m-auto max-w-screen-md">PERK PROMOTION</div>;
+  return <div className="m-auto max-w-screen-md">
+
+    <h1>PERK PROMOTION</h1>
+
+    </div>;
 }
