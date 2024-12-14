@@ -22,12 +22,12 @@ export default function Home() {
           appriciated perks.
         </mark>
       </h3>
-      <div className="m-auto max-w-[950px]">
-        <div className="grid grid-cols-3 gap-8 mt-8 gap-y-12 mb-20">
+      <div className="m-auto max-w-[1000px] p-4">
+        <div className="flex flex-wrap justify-center gap-8 mt-8 gap-y-16 mb-20">
           {perksData.map((perk, index) => (
             <div
               key={index}
-              className="duration-300 rounded-xl hover:transition-transform hover:duration-300 hover:ease-in-out cursor-grab hover:scale-105 flex flex-col justify-center relative border border-slate-200 h-[280px] p-6"
+              className="duration-300 w-[250px] rounded-xl hover:transition-transform hover:duration-300 hover:ease-in-out cursor-grab hover:scale-105 flex flex-col justify-center relative border border-slate-200 h-[280px] p-6"
             >
               <div className="bg-white h-12 flex justify-center w-12 absolute -top-8 left-1/2 transform -translate-x-1/2">
                 {perk.icon}

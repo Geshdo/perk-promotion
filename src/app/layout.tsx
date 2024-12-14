@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Anek_Latin } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const anek = Anek_Latin({
   subsets: ["latin"],
@@ -21,6 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="icon" href="/favicon.png" />
+      </Head>
       <body className={`${anek.className}  antialiased`}>{children}</body>
     </html>
   );
