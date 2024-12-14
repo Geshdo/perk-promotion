@@ -18,10 +18,12 @@ export default function Home() {
       <h3 className="text-lg my-24 text-center max-w-md m-auto">
         If working with the best people, with the greatest technology is not
         enough we also like to highlight some of our employees most{" "}
-        <mark className="inline-block bg-purple-100">appriciated perks.</mark>
+        <mark className="inline-block bg-purple-100 px-2">
+          appriciated perks.
+        </mark>
       </h3>
-      <div className="m-auto max-w-screen-md">
-        <div className="grid grid-cols-3 gap-4 mt-8 gap-y-12 mb-20">
+      <div className="m-auto max-w-[950px]">
+        <div className="grid grid-cols-3 gap-8 mt-8 gap-y-12 mb-20">
           {perksData.map((perk, index) => (
             <div
               key={index}
