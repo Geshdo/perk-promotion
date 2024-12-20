@@ -28,7 +28,7 @@ export default function Home() {
           {perksData.map((perk, index) => (
             <div
               key={index}
-              className="duration-300 w-[250px] rounded-xl hover:bg-slate-50 hover:transition-transform hover:duration-300 hover:ease-in-out cursor-grab hover:scale-105 flex flex-col justify-center relative border border-slate-200 h-[280px] p-6"
+              className="duration-300 w-[250px] rounded-xl  hover:transition-transform hover:duration-300 hover:ease-in-out hover:scale-105 flex flex-col justify-center relative border border-slate-200 h-[280px] p-6"
             >
               <div className=" h-12 flex justify-center w-12 absolute -top-8 left-1/2 transform -translate-x-1/2">
                 {perk.icon}
